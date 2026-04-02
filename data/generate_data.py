@@ -1,0 +1,148 @@
+import pandas as pd
+import random
+
+random.seed(42)
+
+samples = [
+    # Joy
+    ("I just got promoted 😊🎉", "joy"),
+    ("Best day ever!! 😁✨", "joy"),
+    ("Finally finished my project 🙌😄", "joy"),
+    ("Hanging out with friends tonight 😃🥳", "joy"),
+    ("Feeling so grateful today 🥰💛", "joy"),
+    ("New personal record at the gym 💪😄", "joy"),
+    ("Got into my dream college!! 🎊😁", "joy"),
+    ("Surprise birthday party was amazing 🎂😊", "joy"),
+    ("Aced my exam 📚😄✨", "joy"),
+    ("Beautiful sunset today 🌅😊", "joy"),
+    ("Weekend trip was absolutely perfect 🏖️😍", "joy"),
+    ("My team won the match 🏆⚽😁", "joy"),
+    ("Got a raise today 💰🎉😊", "joy"),
+    ("Laughing so hard I'm crying 😂🤣", "joy"),
+    ("Just adopted a puppy 🐶❤️😊", "joy"),
+    ("Wedding was magical ✨💍😍", "joy"),
+    ("Road trip with bestie 🚗🎵😄", "joy"),
+    ("First day at new job went great 💼😊", "joy"),
+    ("Cooked my favourite meal perfectly 🍝😄", "joy"),
+    ("Reunion with old friends 🥂😃", "joy"),
+
+    # Sadness
+    ("Missing my family so much 😢💔", "sadness"),
+    ("Didn't get the job I wanted 😞", "sadness"),
+    ("Feeling so lonely lately 😔", "sadness"),
+    ("My dog passed away today 💔😭", "sadness"),
+    ("Long distance is so hard 😢", "sadness"),
+    ("Another rejection email 😞💔", "sadness"),
+    ("Rainy days make me sad 🌧️😔", "sadness"),
+    ("Goodbye is never easy 😭💔", "sadness"),
+    ("Feeling empty inside lately 😞😶", "sadness"),
+    ("Lost a close friend today 💔😢", "sadness"),
+    ("Homesick every single day 🏠😔", "sadness"),
+    ("Breakup hit different at 3am 💔😭", "sadness"),
+    ("Failed my driving test again 😞", "sadness"),
+    ("Can't stop crying for no reason 😭", "sadness"),
+    ("Nobody showed up to my birthday 😢🎂", "sadness"),
+    ("Movie made me sob uncontrollably 😭🎬", "sadness"),
+    ("End of an era, it's over 😔💔", "sadness"),
+    ("Everything feels pointless rn 😞💔", "sadness"),
+    ("Miss the way things used to be 😢", "sadness"),
+    ("All my friends are moving away 😔", "sadness"),
+
+    # Anger
+    ("I'm so done with this traffic 😤🚗", "anger"),
+    ("How dare they cancel my order!! 😠", "anger"),
+    ("People who litter make me furious 😡🗑️", "anger"),
+    ("My internet keeps cutting out 😤💢", "anger"),
+    ("They lied straight to my face 😡🤬", "anger"),
+    ("3 hours waiting and nothing 😠⏰", "anger"),
+    ("Disrespected in my own house 😤💢", "anger"),
+    ("Can't believe what he just said 🤬", "anger"),
+    ("This injustice makes my blood boil 😡✊", "anger"),
+    ("Cheated out of my money 😤😠", "anger"),
+    ("Interrupted during my presentation again 😠", "anger"),
+    ("Why do people have no manners 😡", "anger"),
+    ("Deadlines keep getting moved 😤💢", "anger"),
+    ("Someone took credit for my work 😠🤬", "anger"),
+    ("Broken promises again and again 😡💔", "anger"),
+    ("Stuck in a toxic environment 😤😠", "anger"),
+    ("Wasted 2 hours fixing their mistake 😡", "anger"),
+    ("No accountability whatsoever 😠💢", "anger"),
+    ("Unbelievable level of incompetence 🤬😤", "anger"),
+    ("That comment was completely uncalled for 😡", "anger"),
+
+    # Fear
+    ("Waiting for my biopsy results 😰😨", "fear"),
+    ("Flying for the first time tomorrow 😰✈️", "fear"),
+    ("Interview in 10 minutes, shaking 😨🫨", "fear"),
+    ("Heard something outside at midnight 😱🌑", "fear"),
+    ("Pandemic numbers rising again 😰😨", "fear"),
+    ("Haven't heard from him all day 😨", "fear"),
+    ("Something feels wrong can't explain it 😰", "fear"),
+    ("Thunder and lightning all night 😱⚡", "fear"),
+    ("Doctor found something on the scan 😨😰", "fear"),
+    ("Presenting to 500 people tomorrow 😰🎤", "fear"),
+    ("Alone in the house this week 😨🏠", "fear"),
+    ("Job security feels so uncertain 😰💼", "fear"),
+    ("Car made a weird noise on highway 😱🚗", "fear"),
+    ("Big exam in 8 hours and I'm not ready 😰📚", "fear"),
+    ("What if I mess everything up 😨", "fear"),
+    ("Strange message from an unknown number 😰📱", "fear"),
+    ("Heart is racing for no reason 😨💓", "fear"),
+    ("Worst case scenarios keep playing in my head 😱", "fear"),
+    ("Blood test results coming tomorrow 😰🩸", "fear"),
+    ("Heights absolutely terrify me 😱🏔️", "fear"),
+
+    # Surprise
+    ("Wait WHAT just happened 😲🤯", "surprise"),
+    ("Plot twist I did NOT see coming 😮", "surprise"),
+    ("My ex called out of nowhere 😳📞", "surprise"),
+    ("They offered me double the salary 😲💰", "surprise"),
+    ("Wasn't expecting that at ALL 😮🤯", "surprise"),
+    ("Found $100 in my old jacket 😲💵", "surprise"),
+    ("Ran into my childhood friend today 😮", "surprise"),
+    ("Package delivered 3 weeks early 😲📦", "surprise"),
+    ("This news is actually shocking 😳", "surprise"),
+    ("My flight got upgraded to business 😲✈️", "surprise"),
+    ("Totally blindsided by that decision 🤯😮", "surprise"),
+    ("Unexpected bonus in my paycheck 😲💸", "surprise"),
+    ("Celebrity liked my tweet 😳✨", "surprise"),
+    ("They remembered my order from 2 years ago 😮", "surprise"),
+    ("Got selected out of 10,000 applicants 🤯🎉", "surprise"),
+    ("Rain in the middle of summer 😮🌧️", "surprise"),
+    ("Boss cancelled all meetings this week 😲", "surprise"),
+    ("She said yes!! 😳💍", "surprise"),
+    ("Flash sale dropped 90% off 😲🛒", "surprise"),
+    ("Found my lost ring after 5 years 😮💍", "surprise"),
+
+    # Disgust
+    ("This food tastes absolutely terrible 🤢😖", "disgust"),
+    ("Can't believe people behave like that 🤮😒", "disgust"),
+    ("The smell in that place was unbearable 🤢", "disgust"),
+    ("Hypocrites everywhere I look 😒🤮", "disgust"),
+    ("That scene in the movie was so gross 🤢😫", "disgust"),
+    ("How is this even legal 😒🤢", "disgust"),
+    ("Mold in my food from the restaurant 🤮😡", "disgust"),
+    ("Corruption at every single level 😒🤢", "disgust"),
+    ("Clickbait headlines make me sick 🤮😒", "disgust"),
+    ("Watching them eat with their mouth open 🤢😖", "disgust"),
+    ("That influencer content is so fake 😒🤮", "disgust"),
+    ("Garbage everywhere in the park 🤢🗑️", "disgust"),
+    ("Greed is actually nauseating 😒🤢", "disgust"),
+    ("Can't scroll through this anymore 🤮", "disgust"),
+    ("Found a bug in my salad 🤢😱", "disgust"),
+    ("This level of dishonesty disgusts me 😒", "disgust"),
+    ("Exploitation masked as opportunity 🤮😒", "disgust"),
+    ("The state of public toilets 🤢😖", "disgust"),
+    ("Shameless, absolutely shameless 😒🤮", "disgust"),
+    ("Mistreatment of animals makes me sick 🤢💔", "disgust"),
+]
+
+random.shuffle(samples)
+
+df = pd.DataFrame(samples, columns=["text", "mood"])
+df["text_id"] = range(1, len(df) + 1)
+df = df[["text_id", "text", "mood"]]
+
+df.to_csv("data/sample_data.csv", index=False)
+print(f"Dataset created: {len(df)} samples")
+print(df["mood"].value_counts())

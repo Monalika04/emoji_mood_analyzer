@@ -1,0 +1,241 @@
+text_id,text,mood
+1,My dog of 12 years is gone 😭❤️,sadness
+2,Woke the whole building at 3am again 😤💢,anger
+3,Surprise party was absolutely perfect 🎂😊,joy
+4,Data got leaked and nobody is accountable 😡,anger
+5,Train cancelled but no refund available 😡🚂,anger
+6,Stranger returned wallet with everything inside 😲💰,surprise
+7,He groped her and laughed it off 🤮😡,disgust
+8,Job could be automated away very soon 😰💼,fear
+9,Selling expired medicine in poor countries 🤮😡,disgust
+10,Lost my job today without warning 😞💔,sadness
+11,Walking home alone at midnight tonight 😱,fear
+12,My cold case complaint just got reopened 😲,surprise
+13,Ran into my best friend unexpectedly 😊🤗,joy
+14,The letter I wrote never got a reply 😔💔,sadness
+15,Hired externally for a role I was promised 😡,anger
+16,Panic attack starting and I am in public 😰💓,fear
+17,Family reunion was the best thing ever 👨‍👩‍👧💛,joy
+18,Alone in the house and heard something upstairs 😰🌑,fear
+19,A company I invested in just IPO-ed 🤯💸,surprise
+20,Company dumps waste directly into the river 🤮😡,disgust
+21,Interview for dream job in 10 minutes 😰,fear
+22,Totally forgot it was my birthday today 😲🎂,surprise
+23,Therapy is not working and I feel hopeless 😞,sadness
+24,Earthquake warning just came through 😱⚠️,fear
+25,Background check might reveal something bad 😰,fear
+26,Deepfake used to destroy her reputation 😒🤮,disgust
+27,Landlord still not fixed anything after 6 weeks 😤💢,anger
+28,Children used as shields called heroes 🤢😡,disgust
+29,That influencer is the most fake person 😒🤮,disgust
+30,Complaint has been open for two months 😠🤬,anger
+31,My tweet went viral overnight 😲📱,surprise
+32,Missing home so much it physically hurts 😔🏠,sadness
+33,Friends all moving forward without me 😞,sadness
+34,Used cigarette in my freshly served dessert 🤢😖,disgust
+35,Finally got my dream job offer 💼🎉,joy
+36,That comment about refugees made me sick 🤢,disgust
+37,Exam was nothing like what we were told 😤😡,anger
+38,My garden is blooming beautifully 🌸🌼,joy
+39,Corruption exposed in report is nauseating 🤮😒,disgust
+40,Hard work was never once acknowledged 😤,anger
+41,Standing on the roof of a 40 storey building 😱🏙️,fear
+42,Finished my marathon in under 4 hours 🏃💪,joy
+43,Gaslighting your partner for years is vile 😒🤢,disgust
+44,Just booked my dream holiday 🏖️✈️🎉,joy
+45,Best friend is moving across the country 😢💔,sadness
+46,That scene in the documentary was so graphic 🤢😫,disgust
+47,He lied to my face for months 😡💔,anger
+48,Manager screamed at me in front of team 😤🤬,anger
+49,Had the most amazing date night 🥂😍,joy
+50,Got a scholarship I had forgotten I applied for 🤯🎓,surprise
+51,Biopsy results come back tomorrow 😰😨,fear
+52,Can not afford rent this month again 😞,sadness
+53,Our team won the championship 🏆⚽,joy
+54,Surgery scheduled for next week 😨🏥,fear
+55,Got left out of the friend group again 😞,sadness
+56,Finally finished building my app 💻🙌,joy
+57,Passed my driving test first attempt 🚗😁,joy
+58,Old photo of us made me cry today 😭💔,sadness
+59,Blood pressure reading shocked the doctor 😨,fear
+60,Symptoms match something very serious 😨,fear
+61,The turbulence is getting worse 😰✈️,fear
+62,Received anonymous flowers with no explanation 😳🌸,surprise
+63,Medical records given to wrong person 😠,anger
+64,Tested products on animals after promising not to 🤢,disgust
+65,Aced all my exams this semester 📚😁,joy
+66,Visa expires in 5 days with no extension 😰🛂,fear
+67,Using a tragedy to sell merchandise 😒🤢,disgust
+68,Boss took credit for my entire project 🤬,anger
+69,HR protecting the bully not the victim 😡🤬,anger
+70,She threatened me and I believe her 😱,fear
+71,My child has not come home from school 😨,fear
+72,Parents announced they are divorcing 😔💔,sadness
+73,Payment was declined for no reason 😡💸,anger
+74,My ex texted out of nowhere after two years 😳📞,surprise
+75,Saw my ex looking so happy without me 😢,sadness
+76,Charity event raised double the target 💛🙌,joy
+77,Just got engaged to my best friend 💍🥰,joy
+78,My city flooded and I lost everything 😭💔,sadness
+79,Rat droppings found throughout the kitchen 🤢😖,disgust
+80,Feeling completely invisible lately 😔,sadness
+81,Dog learned a new trick today 🐕😊,joy
+82,Just got promoted at work 😊🎉,joy
+83,He plagiarised a student thesis for profit 😒🤮,disgust
+84,Found mould in my takeaway food 🤢😖,disgust
+85,Found 4-leaf clover on the same day I needed luck 😮🍀,surprise
+86,Just learned I am getting a bonus 💰😁,joy
+87,Found 200 in a jacket I forgot about 😮💵,surprise
+88,Got a standing ovation I did not expect 😲👏,surprise
+89,Waited 3 hours and was completely ignored 😠,anger
+90,Got the internship at my top choice company 💼🥳,joy
+91,Found a cockroach inside the sealed food 🤢😱,disgust
+92,Do not know how I will pay for treatment 😨💸,fear
+93,False review destroyed my small business 🤬😠,anger
+94,Company matched my asking salary exactly 😮💰,surprise
+95,My idea was stolen in the meeting today 😠💢,anger
+96,Office toilets are beyond unacceptable 🤢😫,disgust
+97,Harassment labelled as banter by management 😒🤢,disgust
+98,Finished reading 50 books this year 📚😄✨,joy
+99,Doctor wants a second opinion urgently 😰🩺,fear
+100,Clickbait preying on grief is despicable 🤢,disgust
+101,Keep changing the deadline without telling me 😤,anger
+102,Another year alone on my birthday 😞🎂,sadness
+103,That organic product is actually chemical waste 😒🤮,disgust
+104,Parents secretly planned a surprise trip 😲✈️,surprise
+105,Feeling so drained and empty inside 😞💔,sadness
+106,First time flying a plane as pilot tomorrow 😨✈️,fear
+107,Walked into my own surprise retirement party 🤯🎊,surprise
+108,Partner has not replied in over 12 hours 😨,fear
+109,A celebrity followed my account today 😳✨,surprise
+110,Someone is following me home I think 😱,fear
+111,Finished project ahead of schedule 📋😄,joy
+112,Driving in a blizzard with no visibility 😱🚗❄️,fear
+113,Gave away my reserved table without notice 😡🍽️,anger
+114,Slaughterhouse footage changed everything for me 🤢,disgust
+115,Won against the tournament favourites 😲🏆,surprise
+116,My package arrived three weeks early 😲📦,surprise
+117,Presenting to 800 people in one hour 😰🎤,fear
+118,Nobody reached out on my hard day 😢💔,sadness
+119,Found out I have a half sibling today 😳😮,surprise
+120,Selling counterfeit medicine online is criminal 🤮😡,disgust
+121,Failed my final year dissertation 😢📖,sadness
+122,Best friend betrayed my trust 😢💔,sadness
+123,Medical test detected something on scan 😰,fear
+124,Abuse was covered up for years 😒🤢,disgust
+125,Fire alarm going off with no drill scheduled 😱🔥,fear
+126,Got offered a job I never applied for 😲💼,surprise
+127,Colleague keeps interrupting me in meetings 🤬,anger
+128,Got a letter from a debt collector today 😰💸,fear
+129,Portfolio lost everything this month 😞💸,sadness
+130,Body shaming ad campaign disgusts me completely 😒🤢,disgust
+131,Old friend tracked me down after 20 years 😮🤝,surprise
+132,My little sister graduated with distinction 🎓💛,joy
+133,Boss called just to say I was doing great work 😲💼,surprise
+134,Raised prices without any notice 😠💢,anger
+135,Anxiety is completely out of control 😨💓,fear
+136,Exploitation of elderly residents is sickening 🤮😒,disgust
+137,Wage theft disguised as company policy 😒🤮,disgust
+138,Had to put my cat to sleep 😭💔,sadness
+139,Got the apartment I have been dreaming of 🏠🎊,joy
+140,Car brakes feel soft on the motorway 😱🚗,fear
+141,Phone was hacked and support is useless 🤬📱,anger
+142,They promoted someone less qualified over me 😡💢,anger
+143,Sewage on the supposedly clean beach 🤢😫,disgust
+144,Plot twist I did not see coming at all 🤯😮,surprise
+145,My artwork sold for the first time 🎨😄,joy
+146,They charged me twice and refuse to refund 😡,anger
+147,Rotten smell in the entire hotel corridor 🤢😖,disgust
+148,Made a huge financial mistake I cannot fix 😨💸,fear
+149,Mentor told me I am not good enough 😞,sadness
+150,Got a call saying I won the competition 😲🎉,surprise
+151,Kept my deposit without any justification 😤💢,anger
+152,Random stranger paid for my entire meal 😳,surprise
+153,Covering up the oil spill for three weeks 🤮😒,disgust
+154,Child had a seizure for the first time 😨,fear
+155,Long distance relationship is breaking me 😔,sadness
+156,Just hit 10k followers on my channel 📱🎉,joy
+157,Lost the pregnancy we had been hoping for 💔😭,sadness
+158,Health diagnosis was not good today 😔😢,sadness
+159,They changed the terms after I signed 😠,anger
+160,Delivery was 3 weeks late and arrived broken 😠📦,anger
+161,Got rejected from every university 😞,sadness
+162,They lost my luggage and shrugged it off 😡✈️,anger
+163,My medication given to the wrong patient 🤬😠,anger
+164,Rejected manuscript got accepted five years later 😳📖,surprise
+165,My shy friend gave a TEDx talk today 😮🎤,surprise
+166,First paycheck from my freelance work 💸😊,joy
+167,Mystery meat in the labelled chicken dish 🤢😖,disgust
+168,Found a first edition book at a car boot sale 😮📚,surprise
+169,The project I loved most got cancelled 😔,sadness
+170,Relationship of 5 years ended today 💔😭,sadness
+171,Landlord dropped the rent for next year 😮💸,surprise
+172,Wi-Fi on the remote island actually worked 😳📶,surprise
+173,My visa got approved finally ✈️😊,joy
+174,My startup failed after 2 years 💔😢,sadness
+175,Might be losing my vision slowly 😨👁️,fear
+176,Charged for subscription I cancelled twice 😤💢,anger
+177,Being investigated at work for something false 😰,fear
+178,Flight got upgraded to first class for free 😲✈️,surprise
+179,Nobody remembered my work anniversary 😢,sadness
+180,He knows where I live and I am scared 😱,fear
+181,Met my childhood idol today ✨😊,joy
+182,Was discriminated against at the restaurant 😡,anger
+183,My short film won the festival award 🎬🏆,joy
+184,Immune results are back and look scary 😰,fear
+185,Fined for something that was not my fault 😡,anger
+186,My book got published today 📖✨,joy
+187,Watched a sunset alone and cried 😢🌅,sadness
+188,Fake charity keeping 95% of donations 🤮😡,disgust
+189,Contractor disappeared with half my money 😡💸,anger
+190,Neighbour parking in my spot for months 😡,anger
+191,My parents are so proud of me today 🥹💛,joy
+192,Account deleted with no warning or reason 😤💢,anger
+193,Maggots in the hospital meal is unforgivable 🤢😱,disgust
+194,Fraudulent degree sold to vulnerable students 🤢,disgust
+195,They cancelled my flight and offered nothing 😠✈️,anger
+196,Bus driver refused payment and smiled 😳,surprise
+197,Predatory lending targeting single mothers 🤮😒,disgust
+198,Collaboration with favourite artist confirmed 🎵🎉,joy
+199,Watching them eat with mouth wide open 😒🤢,disgust
+200,Someone plagiarised my research paper 🤬📄,anger
+201,Bullying a child with a disability on camera 🤮😡,disgust
+202,Received a hand-written letter from my idol 😮✨,surprise
+203,My grandmother passed away this morning 💔😭,sadness
+204,My homemade jam won a regional award 😮🏆,surprise
+205,Best day of my life today ✨😄,joy
+206,First holiday without my late father 💔😢,sadness
+207,Alone in the forest after dark 😱🌲,fear
+208,Feedback has been ignored for six months 😠,anger
+209,Mentor who changed my life passed away 💔😞,sadness
+210,Broke my device and blamed me for it 🤬,anger
+211,Historical records of abuse finally coming out 🤮😒,disgust
+212,My article got picked up by a major outlet 😲📰,surprise
+213,Test came back negative after all 😲😮,surprise
+214,Lightning struck right next to me 😱😮,surprise
+215,Got ghosted by someone I really cared about 😔,sadness
+216,My passport was stolen abroad 😰,fear
+217,Hypocrisy of that speech is breathtaking 😒🤮,disgust
+218,Medication ran out and pharmacy is closed 😨💊,fear
+219,Strange car has been parked outside all week 😨,fear
+220,Flight home cancelled on Christmas 😢✈️,sadness
+221,Childhood home is being sold 😢🏠,sadness
+222,Got a perfect score on my presentation 📊😁,joy
+223,My startup just got funded 💰🎊,joy
+224,Just adopted the cutest puppy 🐶❤️,joy
+225,Customer service hung up on me three times 😡📞,anger
+226,Chest pains started again tonight 😨💓,fear
+227,Just completed my first triathlon 🏊🚴🏃,joy
+228,MRI results appointment is tomorrow 😨,fear
+229,Pet food contained banned slaughterhouse waste 🤢😱,disgust
+230,Got selected out of 50000 applicants 🤯🎉,surprise
+231,Finally learned to play my favourite song 🎸😄,joy
+232,Bumped into my favourite author at a cafe 😮✨,surprise
+233,Woke up feeling genuinely happy 😊☀️,joy
+234,Nobody showed up to my exhibition 😔🎨,sadness
+235,Watched my team lose in the final minute 😢⚽,sadness
+236,Been crying without knowing why again 😭😔,sadness
+237,Last minute bid on the house worked 😲🏠,surprise
+238,Got into my dream university 🎓🥳,joy
+239,Cooked my first proper three course meal 🍽️😁,joy
+240,Ran into my twin at an airport abroad 😮,surprise
